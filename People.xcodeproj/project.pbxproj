@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA577C871731265500CDD107 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA577C861731265500CDD107 /* UIKit.framework */; };
+		CA577C891731265500CDD107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA577C881731265500CDD107 /* Foundation.framework */; };
+		CA577C8B1731265500CDD107 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA577C8A1731265500CDD107 /* CoreGraphics.framework */; };
+		CA577C8D1731265500CDD107 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA577C8C1731265500CDD107 /* CoreData.framework */; };
+		CA577C931731265500CDD107 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA577C911731265500CDD107 /* InfoPlist.strings */; };
+		CA577C951731265500CDD107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA577C941731265500CDD107 /* main.m */; };
+		CA577C991731265600CDD107 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA577C981731265600CDD107 /* AppDelegate.m */; };
+		CA577C9B1731265600CDD107 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA577C9A1731265600CDD107 /* Default.png */; };
+		CA577C9D1731265600CDD107 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA577C9C1731265600CDD107 /* Default@2x.png */; };
+		CA577C9F1731265600CDD107 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA577C9E1731265600CDD107 /* Default-568h@2x.png */; };
+		CA577CA21731265600CDD107 /* People.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA577CA01731265600CDD107 /* People.xcdatamodeld */; };
+		CA577CAA173126D200CDD107 /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA577CA9173126D200CDD107 /* PersonListViewController.m */; };
+		CA577CAD173126EA00CDD107 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA577CAC173126EA00CDD107 /* AddPersonViewController.m */; };
+		CA577CB6173138CC00CDD107 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = CA577CB5173138CC00CDD107 /* People.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA577C831731265500CDD107 /* People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = People.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA577C861731265500CDD107 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA577C881731265500CDD107 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA577C8A1731265500CDD107 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA577C8C1731265500CDD107 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA577C901731265500CDD107 /* People-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "People-Info.plist"; sourceTree = "<group>"; };
+		CA577C921731265500CDD107 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA577C941731265500CDD107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA577C961731265600CDD107 /* People-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "People-Prefix.pch"; sourceTree = "<group>"; };
+		CA577C971731265600CDD107 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA577C981731265600CDD107 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA577C9A1731265600CDD107 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA577C9C1731265600CDD107 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA577C9E1731265600CDD107 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA577CA11731265600CDD107 /* People.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = People.xcdatamodel; sourceTree = "<group>"; };
+		CA577CA8173126D200CDD107 /* PersonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
+		CA577CA9173126D200CDD107 /* PersonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
+		CA577CAB173126EA00CDD107 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		CA577CAC173126EA00CDD107 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
+		CA577CB4173138CC00CDD107 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		CA577CB5173138CC00CDD107 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA577C801731265500CDD107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA577C871731265500CDD107 /* UIKit.framework in Frameworks */,
+				CA577C891731265500CDD107 /* Foundation.framework in Frameworks */,
+				CA577C8B1731265500CDD107 /* CoreGraphics.framework in Frameworks */,
+				CA577C8D1731265500CDD107 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA577C7A1731265500CDD107 = {
+			isa = PBXGroup;
+			children = (
+				CA577C8E1731265500CDD107 /* People */,
+				CA577C851731265500CDD107 /* Frameworks */,
+				CA577C841731265500CDD107 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA577C841731265500CDD107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA577C831731265500CDD107 /* People.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA577C851731265500CDD107 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA577C861731265500CDD107 /* UIKit.framework */,
+				CA577C881731265500CDD107 /* Foundation.framework */,
+				CA577C8A1731265500CDD107 /* CoreGraphics.framework */,
+				CA577C8C1731265500CDD107 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA577C8E1731265500CDD107 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				CA577C971731265600CDD107 /* AppDelegate.h */,
+				CA577C981731265600CDD107 /* AppDelegate.m */,
+				CA577CA01731265600CDD107 /* People.xcdatamodeld */,
+				CA577C8F1731265500CDD107 /* Supporting Files */,
+				CA577CA8173126D200CDD107 /* PersonListViewController.h */,
+				CA577CA9173126D200CDD107 /* PersonListViewController.m */,
+				CA577CAB173126EA00CDD107 /* AddPersonViewController.h */,
+				CA577CAC173126EA00CDD107 /* AddPersonViewController.m */,
+				CA577CB4173138CC00CDD107 /* People.h */,
+				CA577CB5173138CC00CDD107 /* People.m */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		CA577C8F1731265500CDD107 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA577C901731265500CDD107 /* People-Info.plist */,
+				CA577C911731265500CDD107 /* InfoPlist.strings */,
+				CA577C941731265500CDD107 /* main.m */,
+				CA577C961731265600CDD107 /* People-Prefix.pch */,
+				CA577C9A1731265600CDD107 /* Default.png */,
+				CA577C9C1731265600CDD107 /* Default@2x.png */,
+				CA577C9E1731265600CDD107 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA577C821731265500CDD107 /* People */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA577CA51731265600CDD107 /* Build configuration list for PBXNativeTarget "People" */;
+			buildPhases = (
+				CA577C7F1731265500CDD107 /* Sources */,
+				CA577C801731265500CDD107 /* Frameworks */,
+				CA577C811731265500CDD107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = People;
+			productName = People;
+			productReference = CA577C831731265500CDD107 /* People.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA577C7B1731265500CDD107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Edward;
+			};
+			buildConfigurationList = CA577C7E1731265500CDD107 /* Build configuration list for PBXProject "People" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA577C7A1731265500CDD107;
+			productRefGroup = CA577C841731265500CDD107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA577C821731265500CDD107 /* People */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA577C811731265500CDD107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA577C931731265500CDD107 /* InfoPlist.strings in Resources */,
+				CA577C9B1731265600CDD107 /* Default.png in Resources */,
+				CA577C9D1731265600CDD107 /* Default@2x.png in Resources */,
+				CA577C9F1731265600CDD107 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA577C7F1731265500CDD107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA577C951731265500CDD107 /* main.m in Sources */,
+				CA577C991731265600CDD107 /* AppDelegate.m in Sources */,
+				CA577CA21731265600CDD107 /* People.xcdatamodeld in Sources */,
+				CA577CAA173126D200CDD107 /* PersonListViewController.m in Sources */,
+				CA577CAD173126EA00CDD107 /* AddPersonViewController.m in Sources */,
+				CA577CB6173138CC00CDD107 /* People.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA577C911731265500CDD107 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA577C921731265500CDD107 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA577CA31731265600CDD107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA577CA41731265600CDD107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA577CA61731265600CDD107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "People/People-Prefix.pch";
+				INFOPLIST_FILE = "People/People-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA577CA71731265600CDD107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "People/People-Prefix.pch";
+				INFOPLIST_FILE = "People/People-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA577C7E1731265500CDD107 /* Build configuration list for PBXProject "People" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA577CA31731265600CDD107 /* Debug */,
+				CA577CA41731265600CDD107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA577CA51731265600CDD107 /* Build configuration list for PBXNativeTarget "People" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA577CA61731265600CDD107 /* Debug */,
+				CA577CA71731265600CDD107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA577CA01731265600CDD107 /* People.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA577CA11731265600CDD107 /* People.xcdatamodel */,
+			);
+			currentVersion = CA577CA11731265600CDD107 /* People.xcdatamodel */;
+			path = People.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA577C7B1731265500CDD107 /* Project object */;
+}
